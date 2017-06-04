@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.contecomigo.BlogFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logo_deam"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/secondary_text"
+                    android:text="A Delegacia Especializada no Atendimento à Mulher (DEAM) assiste a mais de 1400 mulheres. Mais do que atendimento no momento da ocorrência, é feito o ACOMPANHAMENTO "/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="10dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/secondary_text"
+                    android:text="Não se cale cale, se a vítima for você"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/secondary_text"
+                    android:text="Denuncie!"/>
+
+                <EditText
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"
+                    android:hint="CPF (000.000.000-00)"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:hint="Denúncia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"
+                    android:hint="Observações"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_done_black_24dp"
+            android:clickable="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

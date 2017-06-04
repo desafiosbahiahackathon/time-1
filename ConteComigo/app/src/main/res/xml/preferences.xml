@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="not"
+        android:title="Receber Notificações"
+        android:defaultValue="true"/>
+
+    <EditTextPreference
+        android:defaultValue="100m"
+        android:key="raio"
+        android:title="Raio de Ação" />
+
+    <ListPreference
+        android:key="transporte"
+        android:title="Meio de Transporte"
+        android:dialogTitle="Qual o meio de transporte que você utiliza?"
+        android:entries="@array/transport_options"
+        android:entryValues="@array/transport_labels"
+        android:defaultValue="Nenhum" />
+
+    <CheckBoxPreference
+        android:key="pref_sync"
+        android:title="Envio de Dados Anônimos"
+        android:summary="Enviar dados anônimos para o banco de dados dos órgãos do governo"
+        android:defaultValue="true" />
+
+</PreferenceScreen>

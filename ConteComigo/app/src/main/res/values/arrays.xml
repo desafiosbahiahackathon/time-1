@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="transport_options">
+        <item>Carro</item>
+        <item>Ônibus</item>
+        <item>Bicicleta</item>
+        <item>Nenhum</item>
+    </string-array>
+
+    <string-array name="transport_labels">
+        <item>Carro</item>
+        <item>Ônibus</item>
+        <item>Bicicleta</item>
+        <item>Nenhum</item>
+    </string-array>
+
+</resources>
